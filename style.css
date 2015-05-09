@@ -1,0 +1,35 @@
+body {
+  background: #CBCBCB; 
+}
+
+.list {
+  width: 50%;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background: #7CB4B5;
+  border: 1px solid #525E5F;
+  font-family: Courier;
+  color: #193737;
+  padding: 0px;
+  box-shadow: 3px 4px 5px 1px #000000; }
+
+  .list h4 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 40px;
+    cursor: pointer; }
+
+  .list p {
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    font-weight: normal; }
+
+.about-link {
+  font-size: 30px;
+  font-family: Courier;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 1px; }

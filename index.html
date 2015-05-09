@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <title>Final Assessment</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <h3 class="about-link">Steve Cheruiyot - Final Assessment</h3>
+    <div ng-controller="HomeworkCtrl">
+      <p class="about-link"><a href="about.html">About</a></p>
+      <ul class="list" ng-repeat="work in homework">
+        <h4 ng-click="clicked = !clicked"> {{ work.assignment }} </h4>
+        <div class="click" ng-show="clicked">      
+          <span ng-show="true">
+            <p><a href="{{ work.url }}">{{ work.url }}</a></p>
+            <p>{{ work.status }}</p>
+          </span>
+        </div>
+      </ul>
+    </div>
+  </body>
+</html>
